@@ -18,7 +18,12 @@
 				<h1 class="fw-bolder">Panel de administración</h1>
 			</div>
 			<div class="d-flex flex-row mb-3">
-				<button class="admin__add__user" id="addNewUserOnDialog">
+				<button
+					class="admin__add__user"
+					id="addNewUserOnDialog"
+					data-bs-toggle="modal"
+					data-bs-target="#staticBackdrop"
+				>
 					<div class="card p-2 m-4 card__admin" style="width: 18rem">
 						<div class="img__responsive">
 							<img
@@ -70,6 +75,79 @@
 					</div>
 				</button>
 			</div>
+
+			<!-- Modals add user -->
+			<div
+				class="modal fade"
+				id="staticBackdrop"
+				data-bs-backdrop="static"
+				data-bs-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="staticBackdropLabel">
+								Añadir un nuevo usuario
+							</h1>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="modal-body">
+							<form id="addNewUser">
+								<div class="">
+									<label for="exampleInputEmail1" class="form-label"
+										>Nombre Completo</label
+									>
+									<input
+										type="text"
+										name="userNameComplete"
+										class="form-control"
+										id="exampleInputEmail1"
+										aria-describedby="emailHelp"
+									/>
+								</div>
+								<div class="mb-3">
+									<label
+										for="exampleInputPassword1"
+										class="form-label"
+										>Numero de DNI</label
+									>
+									<input
+										type="text"
+										name="userNameDni"
+										class="form-control"
+										id="exampleInputPassword1"
+									/>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button
+								type="button"
+								class="btn btn-danger"
+								data-bs-dismiss="modal"
+							>
+								Cancelar
+							</button>
+							<button
+								id="btn-submit-newUser"
+								type="button"
+								class="btn btn-primary"
+							>
+								Agregar Usuario
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Modal -->
 		</div>
 		<script src="./dist/bootstrap.min.js"></script>
 		<script src="renderer.js"></script>

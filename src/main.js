@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const { NFC } = require('nfc-pcsc');
 const nfc = new NFC(); // optionally you can pass logger
@@ -50,73 +50,52 @@ const createWindow = () => {
 
 		clearInterval(interval);
 		interval = setTimeout(() => {
-			const readerStatus = new Reader(
-				mainWindow,
-				windowChild,
-				'readerStatus',
-				{
-					message: 'Reader está activo',
-					status: true,
-				}
-			);
+			const readerStatus = new Reader(mainWindow, 'readerStatus', {
+				message: 'Reader está activo',
+				status: true,
+			});
 			readerStatus.sendCurrier();
 		}, 2000);
 
 		reader.on('card', (card) => {
-			const cardStatus = new Reader(
-				mainWindow,
-				windowChild,
-				'cardStatus',
-				{
-					message: `rfid leido: ${card.uid}`,
-					status: true,
-				}
-			);
+			const cardStatus = new Reader(mainWindow, 'cardStatus', {
+				message: `rfid leido: ${card.uid}`,
+				status: true,
+			});
 			cardStatus.sendCurrier();
 		});
 
 		reader.on('card.off', (card) => {
-			const cardStatus = new Reader(
-				mainWindow,
-				windowChild,
-				'cardStatus',
-				{
-					message: `rfid retirado: ${card.uid}`,
-					status: false,
-				}
-			);
+			const cardStatus = new Reader(mainWindow, 'cardStatus', {
+				message: `rfid retirado: ${card.uid}`,
+				status: false,
+			});
 			cardStatus.sendCurrier();
 		});
 
 		reader.on('error', (err) => {
-			const readerStatus = new Reader(
-				mainWindow,
-				windowChild,
-				'readerStatus',
-				{
-					message: 'Hubo un error con el dispositivo',
-					status: false,
-				}
-			);
+			const readerStatus = new Reader(mainWindow, 'readerStatus', {
+				message: 'Hubo un error con el dispositivo',
+				status: false,
+			});
 			readerStatus.sendCurrier();
 
 			console.log(`${reader.reader.name}  an error occurred`, err);
 		});
 
 		reader.on('end', () => {
-			const readerStatus = new Reader(
-				mainWindow,
-				windowChild,
-				'readerStatus',
-				{
-					message: 'dispositivo retirado',
-					status: false,
-				}
-			);
+			const readerStatus = new Reader(mainWindow, 'readerStatus', {
+				message: 'dispositivo retirado',
+				status: false,
+			});
 			readerStatus.sendCurrier();
 			console.log(`${reader.reader.name}  device removed`);
 		});
 	});
+
+	/* mainWindow.webContents.on('addUserOnDialog', (arg) =>
+		console.log(arg)ipcMain.handle('addUserOnDialog', (e, arg) => console.log(arg));
+	); */
 
 	nfc.on('error', (err) => {
 		const readerStatus = new Reader(

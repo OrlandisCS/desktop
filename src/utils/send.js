@@ -1,12 +1,6 @@
-const courier = (mainWindow, childWindow, channel, args) => {
-	mainWindow.webContents.send(channel, args);
-	childWindow.webContents.send(channel, args);
-};
-const receive = (mainWindow, childWindow, channel, fn) => {
-	mainWindow.webContents.on(channel, () => fn());
-	childWindow.webContents.on(channel, () => fn());
+const courier = (activeWindow, channel, args) => {
+	activeWindow.webContents.send(channel, args);
 };
 module.exports = {
 	courier,
-	receive,
 };

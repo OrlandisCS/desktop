@@ -42,12 +42,10 @@
   },
   "dependencies": {
     "colorette": "^2.0.19",
-    "dialogs": "^2.0.1",
     "dotenv": "^16.0.3",
+    "electron-alert": "^0.1.20",
     "electron-squirrel-startup": "^1.0.0",
-    "nfc-pcsc": "^0.8.1",
-    "smalltalk": "^4.1.1",
-    "vex-dialog": "^1.1.0",
-    "vex-js": "^4.1.0"
+    "mongoose": "^7.0.1",
+    "nfc-pcsc": "^0.8.1"
   }
 }
