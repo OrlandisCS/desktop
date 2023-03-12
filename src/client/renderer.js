@@ -1,11 +1,11 @@
-const formNewUser = document.querySelector('#addNewUser');
-const btnNewUser = document.querySelector('#btn-submit-newUser');
 const badgeStatus = document.querySelector('.reader__status');
 
-/* const addNewUserOnDialog = document.querySelector(
-	'#addNewUserOnDialog'
-); */
 window.electronAPI.getReaderStatus((event, args) => {
+	if (args.status) {
+		document
+			.querySelector('.main__Loader')
+			.style.setProperty('display', 'none');
+	}
 	badgeStatus.classList.add(
 		args.status ? 'reader__is__ready' : 'reader__not__ready'
 	);
@@ -17,16 +17,4 @@ window.electronAPI.getReaderStatus((event, args) => {
 window.electronAPI.getCardStatus((event, args) => {
 	console.log('evento 2:');
 	console.log(args);
-});
-window.electronAPI.getServerResponse((event, args) => {
-	console.log('evento response:');
-	console.log(args);
-});
-btnNewUser.addEventListener('click', (e) => {
-	e.preventDefault();
-	const user = {
-		user: formNewUser['userNameComplete'].value,
-		dni: formNewUser['userNameDni'].value,
-	};
-	window.electronAPI.addNewUserOnDialog(user);
 });

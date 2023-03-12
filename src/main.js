@@ -93,10 +93,6 @@ const createWindow = () => {
 		});
 	});
 
-	/* mainWindow.webContents.on('addUserOnDialog', (arg) =>
-		console.log(arg)ipcMain.handle('addUserOnDialog', (e, arg) => console.log(arg));
-	); */
-
 	nfc.on('error', (err) => {
 		const readerStatus = new Reader(
 			mainWindow,

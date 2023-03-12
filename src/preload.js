@@ -4,11 +4,16 @@ contextBridge.exposeInMainWorld('electronAPI', {
 	getCardStatus: (callback) => ipcRenderer.on('cardStatus', callback),
 	getReaderStatus: (callback) =>
 		ipcRenderer.on('readerStatus', callback),
-	getServerResponse: (callback) =>
-		ipcRenderer.on('respuesta:server', callback),
-	/* Sends */
+
 	userGetReaderStatus: (arg) =>
 		ipcRenderer.send('userGetReaderStatus', arg),
+	//add new user
 	addNewUserOnDialog: (arg) =>
 		ipcRenderer.invoke('addUserOnDialog', arg),
+	getServerResponse: (callback) =>
+		ipcRenderer.on('response:addUserOnDialog', callback),
+	//get all employes
+	loadAllEmployes: (arg) => ipcRenderer.invoke('getAllEmployes', arg),
+	getAllEmployes: (callback) =>
+		ipcRenderer.on('response:getAllEmployes', callback),
 });

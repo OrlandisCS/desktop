@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="./dist/normalize.css" />
 		<link rel="stylesheet" href="./css/app.css" />
 		<title>Panel de administración</title>
+		<link rel="stylesheet" href="./dist/alertify.min.css" />
 	</head>
 	<body class="bg-dark text-warning">
 		<div class="container__css">
@@ -40,7 +41,11 @@
 						</div>
 					</div>
 				</button>
-				<button class="admin__add__user">
+				<button
+					class="admin__add__user"
+					data-bs-toggle="modal"
+					data-bs-target="#staticAddRFID"
+				>
 					<div class="card p-2 m-4 card__admin" style="width: 18rem">
 						<div class="img__responsive">
 							<img
@@ -52,7 +57,7 @@
 
 						<div class="card-body card__admin__subtitle">
 							<h6 class="card-subtitle mb-2 text-muted">
-								Asignar Tarjeta
+								Tarjetas RFID
 							</h6>
 						</div>
 					</div>
@@ -86,7 +91,7 @@
 				aria-labelledby="staticBackdropLabel"
 				aria-hidden="true"
 			>
-				<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-dialog modal-dialog-centered text-black">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h1 class="modal-title fs-5" id="staticBackdropLabel">
@@ -133,6 +138,68 @@
 								type="button"
 								class="btn btn-danger"
 								data-bs-dismiss="modal"
+								id="closeModalNewUser"
+							>
+								Cancelar
+							</button>
+							<button
+								id="btn-submit-newUser"
+								type="button"
+								class="btn btn-primary"
+							>
+								Agregar Usuario
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Modal -->
+
+			<!-- Modals add RFID -->
+			<div
+				class="modal fade"
+				id="staticAddRFID"
+				data-bs-backdrop="static"
+				data-bs-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered text-black">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="staticBackdropLabel">
+								Gestionar tarjetas RFID
+							</h1>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="modal-body" id="allListusers">
+							<select
+								name="selectForUsers"
+								class="form-select"
+								id="selectForUsers"
+								aria-label="Floating label select example"
+							>
+								<option selected disabled>
+									Seleccione un empleado
+								</option>
+							</select>
+							<div class="refs__rfid my-3">
+								<div id="rfsID"></div>
+								<div id="alternativerfsID"></div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button
+								type="button"
+								class="btn btn-danger"
+								data-bs-dismiss="modal"
+								id="closeModalNewUser"
 							>
 								Cancelar
 							</button>
@@ -150,6 +217,7 @@
 			<!-- Modal -->
 		</div>
 		<script src="./dist/bootstrap.min.js"></script>
-		<script src="renderer.js"></script>
+		<script src="./dist/alertify.min.js"></script>
+		<script src="admin.js"></script>
 	</body>
 </html>

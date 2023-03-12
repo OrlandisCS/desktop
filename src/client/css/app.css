@@ -67,3 +67,10 @@
 	border: none;
 	outline: none;
 }
+.refs__rfid {
+	display: flex;
+	justify-content: space-between;
+}
+.refs__rfid .rfid__icons {
+	width: 30px;
+}

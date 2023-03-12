@@ -26,7 +26,6 @@ const EmployesSchema = Schema({
 	},
 	password: {
 		type: String,
-		required: [true, 'El password es obligatorio'],
 	},
 });
 
