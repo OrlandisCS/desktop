@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="default-src 'self'; script-src 'self'"
+		/>
+		<link rel="stylesheet" href="./dist/bootstrap.min.css" />
+		<link rel="stylesheet" href="./dist/normalize.css" />
+		<link rel="stylesheet" href="./css/app.css" />
+		<title>RFID-SIGN APP</title>
+	</head>
+	<body class="bg-dark text-warning">
+		<div class="badge__container fw-bold">
+			ReaderStatus:
+			<span class="reader__status"></span>
+		</div>
+		<div class="container__css">
+			<div class="texts-content">
+				<h1 class="fw-bolder">Pase su tarjeta por el lector rfid</h1>
+			</div>
+			<div class="images">
+				<img
+					src="./assets/icons/lector.png"
+					class="img-fluid"
+					alt="lector rfid"
+				/>
+			</div>
+		</div>
+		<script src="./dist/bootstrap.min.js"></script>
+		<script src="renderer.js"></script>
+	</body>
+</html>

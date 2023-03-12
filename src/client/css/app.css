@@ -1,0 +1,69 @@
+.container__css {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.texts-content h1 {
+	margin-left: -100px;
+	text-transform: uppercase;
+}
+.reader__status {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: red;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.badge__container {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: flex;
+	align-items: center;
+	padding: 8px;
+
+	border-radius: 5px;
+}
+.reader__is__ready {
+	background: #3bc14a;
+}
+.reader__not__ready {
+	background: red;
+}
+.img__responsive {
+	width: 250px;
+	height: 200px;
+	padding: 10px;
+	overflow: hidden;
+}
+.img__responsive img {
+	width: 100%;
+}
+
+.card__admin {
+	width: 270px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.card__admin__subtitle {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card__admin__subtitle h6 {
+	margin-top: 20px;
+	font-weight: bold;
+}
+.admin__add__user {
+	background: transparent;
+	border: none;
+	outline: none;
+}

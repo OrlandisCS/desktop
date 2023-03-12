@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="default-src 'self'; script-src 'self'"
+		/>
+		<link rel="stylesheet" href="./dist/bootstrap.min.css" />
+		<link rel="stylesheet" href="./dist/normalize.css" />
+		<link rel="stylesheet" href="./css/app.css" />
+		<title>Panel de administración</title>
+	</head>
+	<body class="bg-dark text-warning">
+		<div class="container__css">
+			<div class="texts-content">
+				<h1 class="fw-bolder">Panel de administración</h1>
+			</div>
+			<div class="d-flex flex-row mb-3">
+				<button class="admin__add__user" id="addNewUserOnDialog">
+					<div class="card p-2 m-4 card__admin" style="width: 18rem">
+						<div class="img__responsive">
+							<img
+								src="./assets/icons/empleados.png"
+								class="card-img-top"
+								alt="..."
+							/>
+						</div>
+
+						<div class="card-body card__admin__subtitle">
+							<h6 class="card-subtitle mb-2 text-muted">
+								Añadir Usuario
+							</h6>
+						</div>
+					</div>
+				</button>
+				<button class="admin__add__user">
+					<div class="card p-2 m-4 card__admin" style="width: 18rem">
+						<div class="img__responsive">
+							<img
+								src="./assets/icons/rfid.png"
+								class="card-img-top"
+								alt="..."
+							/>
+						</div>
+
+						<div class="card-body card__admin__subtitle">
+							<h6 class="card-subtitle mb-2 text-muted">
+								Asignar Tarjeta
+							</h6>
+						</div>
+					</div>
+				</button>
+				<button class="admin__add__user">
+					<div class="card p-2 m-4 card__admin" style="width: 18rem">
+						<div class="img__responsive">
+							<img
+								src="./assets/icons/calendario.png"
+								class="card-img-top"
+								alt="..."
+							/>
+						</div>
+
+						<div class="card-body card__admin__subtitle">
+							<h6 class="card-subtitle mb-2 text-muted">
+								Control Horario
+							</h6>
+						</div>
+					</div>
+				</button>
+			</div>
+		</div>
+		<script src="./dist/bootstrap.min.js"></script>
+		<script src="renderer.js"></script>
+	</body>
+</html>
