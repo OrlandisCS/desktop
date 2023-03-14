@@ -3,21 +3,24 @@
 	<head>
 		<meta charset="UTF-8" />
 		<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-		<meta
+		<!-- <meta
 			http-equiv="Content-Security-Policy"
 			content="default-src 'self'; script-src 'self'"
-		/>
+		/> -->
 		<link rel="stylesheet" href="./dist/bootstrap.min.css" />
 		<link rel="stylesheet" href="./dist/normalize.css" />
 		<link rel="stylesheet" href="./css/app.css" />
-		<title>Panel de administración</title>
 		<link rel="stylesheet" href="./dist/alertify.min.css" />
+		<link rel="stylesheet" href="./dist/boots.css" />
+		<link rel="stylesheet" href="./dist/fancyGrid.min.css" />
+		<title>Panel de administración</title>
 	</head>
 	<body class="bg-dark text-warning">
-		<div class="container__css">
+		<div class="container__css" id="disableViewDataEmployes">
 			<div class="texts-content">
 				<h1 class="fw-bolder">Panel de administración</h1>
 			</div>
+
 			<div class="d-flex flex-row mb-3">
 				<button
 					class="admin__add__user"
@@ -62,7 +65,7 @@
 						</div>
 					</div>
 				</button>
-				<button class="admin__add__user">
+				<button class="admin__add__user" id="buttonViewDataEmployes">
 					<div class="card p-2 m-4 card__admin" style="width: 18rem">
 						<div class="img__responsive">
 							<img
@@ -162,33 +165,33 @@
 				data-bs-backdrop="static"
 				data-bs-keyboard="false"
 				tabindex="-1"
-				aria-labelledby="staticBackdropLabel"
+				aria-labelledby="RFIDstaticBackdropLabel"
 				aria-hidden="true"
 			>
 				<div class="modal-dialog modal-dialog-centered text-black">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h1 class="modal-title fs-5" id="staticBackdropLabel">
+							<h1
+								class="modal-title fs-5"
+								id="RFIDstaticBackdropLabel"
+							>
 								Gestionar tarjetas RFID
 							</h1>
-							<button
-								type="button"
-								class="btn-close"
-								data-bs-dismiss="modal"
-								aria-label="Close"
-							></button>
+							<div
+								class="badge__container fw-bold badge__container__admin"
+							>
+								CardStatus:
+								<span class="reader__status"></span>
+							</div>
 						</div>
+						<p class="text-center mx-1">Seleccione un empleado</p>
 						<div class="modal-body" id="allListusers">
 							<select
 								name="selectForUsers"
 								class="form-select"
 								id="selectForUsers"
 								aria-label="Floating label select example"
-							>
-								<option selected disabled>
-									Seleccione un empleado
-								</option>
-							</select>
+							></select>
 							<div class="refs__rfid my-3">
 								<div id="rfsID"></div>
 								<div id="alternativerfsID"></div>
@@ -209,8 +212,34 @@
 			</div>
 			<!-- Modal -->
 		</div>
+		<div
+			class="container__css fancy__load__data hidden__element"
+			id="datableForUsers"
+		>
+			<div class="texts-content">
+				<h1 class="fw-bolder">Panel de administración</h1>
+			</div>
+			<div class="fancyGrid container" id="fancyGrid"></div>
+			<div class="block__logo">
+				<img src="../assets/favicon-32x32.png" alt="msp logo" />
+			</div>
+			<div class="btn-group mt-2">
+				<button
+					type="button"
+					id="btn__go__back"
+					class="px-3 py-2 btn btn-danger"
+				>
+					Atras
+				</button>
+				<button type="button" class="px-3 py-2 btn btn-success">
+					Descargar Ecxel
+				</button>
+			</div>
+		</div>
+		<script src="admin.js"></script>
 		<script src="./dist/bootstrap.min.js"></script>
 		<script src="./dist/alertify.min.js"></script>
-		<script src="admin.js"></script>
+		<script src="./dist/fancyGrid.min.js"></script>
+		<script src="fancyData.js"></script>
 	</body>
 </html>

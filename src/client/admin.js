@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+	const badgeStatus = document.querySelector('.reader__status');
+
 	const formNewUser = document.querySelector('#addNewUser');
 	const btnNewUser = document.querySelector('#btn-submit-newUser');
 	const allListusers = document.querySelector('#allListusers');
@@ -6,20 +8,86 @@ document.addEventListener('DOMContentLoaded', function () {
 	const closeModalNewUser = document.querySelector(
 		'#closeModalNewUser'
 	);
-	//btn to delete
-	const delete_rfid = document.querySelector('#delete_rfid');
-	const span_delete_rfid = document.querySelector(
-		'#span_delete_rfid'
-	);
+	//getCardStatus
+	let readerCard;
+	function deleteRFID(rf, userId, alternative) {
+		alertify.set('notifier', 'position', 'center-center');
 
-	const add_rfid = document.querySelector('#add_rfid');
-	const active__rfid = document.querySelector('#active__rfid');
-
-	function deleteRFID(rf) {
-		console.log({ rd });
+		alertify
+			.confirm(`Desea desvincular el rfid: ${rf}?`, function () {
+				if (rf.length > 0) {
+					const data = {
+						userId,
+						rfid: rf,
+						alternative,
+					};
+					window.electronAPI.deleteRfidFromUser(data);
+				}
+			})
+			.setHeader('<em> Desvincular un RFID </em> ')
+			.set('reverseButtons', true)
+			.set('movable', false)
+			.moveTo(700, 450)
+			.pin();
 	}
+	window.electronAPI.deleteRfidFromUserResponse((event, args) => {
+		alertify.set('notifier', 'position', 'top-right');
+		const myModalEl = document.getElementById('staticAddRFID');
+		const modal = bootstrap.Modal.getInstance(myModalEl);
+
+		if (args.success) {
+			alertify.success(`${args.message}`);
+			modal.hide();
+			loadEmployes();
+			setTimeout(() => {
+				window.location.reload();
+			}, 2000);
+		} else {
+			alertify.error(`${args.message}`);
+		}
+	});
+	function assignRFID(userId, alternative) {
+		if (readerCard.card.length > 0 && readerCard.status) {
+			const data = {
+				userId,
+				rfid: readerCard.card,
+				alternative,
+			};
+			window.electronAPI.addNewRfidToUser(data);
+		}
+	}
+	window.electronAPI.addNewRfidToUserResponse((event, args) => {
+		alertify.set('notifier', 'position', 'top-right');
+		const myModalEl = document.getElementById('staticAddRFID');
+		const modal = bootstrap.Modal.getInstance(myModalEl);
+
+		if (args.success) {
+			alertify.success(`${args.message}`);
+			modal.hide();
+			loadEmployes();
+			setTimeout(() => {
+				window.location.reload();
+			}, 2000);
+		} else {
+			alertify.error(`${args.message}`);
+		}
+	});
+	window.electronAPI.getCardStatus((event, args) => {
+		readerCard = args;
+		getStatusCard();
+		badgeStatus.classList.add(
+			args.status ? 'reader__is__ready' : 'reader__not__ready'
+		);
+		badgeStatus.classList.remove(
+			args.status ? 'reader__not__ready' : 'reader__is__ready'
+		);
+	});
+
 	//get employes
-	window.electronAPI.loadAllEmployes();
+	const loadEmployes = () => {
+		window.electronAPI.loadAllEmployes();
+	};
+	loadEmployes();
 	window.electronAPI.getAllEmployes((event, args) => {
 		const users = JSON.parse(args.employes);
 		usersTemplate(users);
@@ -51,52 +119,77 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 	});
 
-	/* console.log(users); */
 	const usersTemplate = (allUsers) => {
+		allListusers.childNodes[1].innerHTML = '';
 		allUsers.forEach((item) => {
 			allListusers.childNodes[1].innerHTML += `
-			<option id='${item._id}' value='${item.rfid}-${item.alternativeRfid}'>${item.name}</option>
+			<option id='${item._id}' value='${item._id}-${item.rfid}-${item.alternativeRfid}'>${item.name}</option>
 			`;
 		});
 	};
 
-	const templateBtn = (contain, classes, id) => {
+	const templateBtn = (contain, classes, id, userId, alternative) => {
 		const button = document.createElement('button');
-		button.innerHTML = `${contain}`;
+		button.innerHTML =
+			contain.length <= 0 ? 'inserte RFID' : `${contain}`;
 		const splited = classes.split(' ');
 		splited.length > 1
 			? splited.forEach((classJS) => button.classList.add(classJS))
 			: button.classList.add(classes.trim());
 		button.setAttribute('id', id);
-		button.addEventListener('click', () => console.log('por finn'));
+		button.addEventListener('click', () =>
+			id
+				? deleteRFID(id, userId, alternative)
+				: assignRFID(userId, alternative)
+		);
 		return button;
 	};
-
-	allListusers.childNodes[1].addEventListener('change', () => {
+	const getStatusCard = () => {
 		document.querySelector('#rfsID').innerHTML = '';
 		document.querySelector('#alternativerfsID').innerHTML = '';
-		const rfs = allListusers.childNodes[1].value
+		window.electronAPI.getCardStatus((event, args) => {
+			readerCard = args;
+			badgeStatus.classList.add(
+				args.status ? 'reader__is__ready' : 'reader__not__ready'
+			);
+			badgeStatus.classList.remove(
+				args.status ? 'reader__not__ready' : 'reader__is__ready'
+			);
+		});
+
+		const [userId, two, trhee] = allListusers.childNodes[1].value
 			.split('-')
 			.filter((value) => value);
 
 		const button = templateBtn(
-			rfs[0]
-				? `<img class='rfid__icons' src='../assets/eliminar.png' alt='icon eliminar'/> RFID: <span class='badge text-bg-secondary'>${rfs[0]}</span>`
-				: `<img class='rfid__icons' src='../assets/add.png' alt='icon eliminar'/>  Asignar RFID:`,
-			`btn ${rfs[0] ? 'btn-danger' : 'btn-info'}`,
-			rfs[0]
+			two
+				? `<img class='rfid__icons' src='../assets/eliminar.png' alt='icon eliminar'/> RFID: <span class='badge text-bg-secondary'>${two}</span>`
+				: readerCard.status
+				? `<img class='rfid__icons' src='../assets/add.png' alt='icon eliminar'/>  Asignar RFID:<span class='badge text-bg-secondary'>${readerCard.card}</span>`
+				: '',
+			`btn m-1 ${two ? 'btn-danger' : 'btn-info'}`,
+			two,
+			userId,
+			false
 		);
 		document.querySelector('#rfsID').appendChild(button);
 
 		const buttonAlternative = templateBtn(
-			rfs[1]
-				? `<img class='rfid__icons' src='../assets/eliminar.png' alt='icon eliminar'/> RFID: <span class='badge text-bg-secondary'>${rfs[1]}</span>`
-				: `<img class='rfid__icons' src='../assets/add.png' alt='icon eliminar'/>  Asignar alternativo RFID:`,
-			`btn ${rfs[1] ? 'btn-danger' : 'btn-info'}`,
-			rfs[1]
+			trhee
+				? `<img class='rfid__icons' src='../assets/eliminar.png' alt='icon eliminar'/> RFID: <span class='badge text-bg-secondary'>${trhee}</span>`
+				: readerCard.status
+				? `<img class='rfid__icons' src='../assets/add.png' alt='icon eliminar'/>  Asignar alternativo RFID:<span class='badge text-bg-secondary'>${readerCard.card}</span>`
+				: '',
+			`btn m-1 ${trhee ? 'btn-danger' : 'btn-info'}`,
+			trhee,
+			userId,
+			true
 		);
 		document
 			.querySelector('#alternativerfsID')
 			.appendChild(buttonAlternative);
+	};
+	allListusers.childNodes[1].addEventListener('change', async () => {
+		getStatusCard();
 	});
 });

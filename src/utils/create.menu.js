@@ -1,4 +1,5 @@
 const { app, Menu } = require('electron');
+const electronActiveWindow = require('electron-active-window');
 
 const createMenu = (windowChild, mainWindow) => {
 	const template = [

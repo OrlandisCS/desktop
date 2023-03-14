@@ -47,7 +47,9 @@ const createUser = async (user) => {
 	employe.password = bcryptjs.hashSync(password, salt); */
 };
 const getAllEmployes = async () => {
-	const employes = await Employe.find();
+	const employes = await Employe.find()
+		.sort({ name: 1 })
+		.collation({ locale: 'es', caseLevel: true });
 	return {
 		message: `Todos los usuarios obtenidos desde la base de datos`,
 		success: true,

@@ -36,13 +36,14 @@ const createWindow = () => {
 			preload: path.join(__dirname, 'preload.js'),
 			devTools: !app.isPackaged,
 		},
-		modal: true,
+		modal: false,
 		parent: mainWindow,
 		show: false,
 	});
 	windowChild.loadFile('./src/client/admin.html');
 	createMenu(windowChild, mainWindow);
 	let interval;
+	let altInterval;
 
 	nfc.on('reader', (reader) => {
 		isDev &&
@@ -57,12 +58,23 @@ const createWindow = () => {
 			readerStatus.sendCurrier();
 		}, 2000);
 
-		reader.on('card', (card) => {
+		reader.on('card', async (card) => {
+			if (card.type !== 'TAG_ISO_14443_3') return;
+			clearInterval(altInterval);
 			const cardStatus = new Reader(mainWindow, 'cardStatus', {
 				message: `rfid leido: ${card.uid}`,
 				status: true,
+				card,
 			});
-			cardStatus.sendCurrier();
+			const cardStatusAdmin = new Reader(windowChild, 'cardStatus', {
+				message: `rfid leido: ${card.uid}`,
+				status: true,
+				card: card.uid,
+			});
+			altInterval = setTimeout(() => {
+				cardStatus.sendCurrier();
+				cardStatusAdmin.sendCurrier();
+			}, 1000);
 		});
 
 		reader.on('card.off', (card) => {
@@ -71,6 +83,12 @@ const createWindow = () => {
 				status: false,
 			});
 			cardStatus.sendCurrier();
+			const cardStatusAdmin = new Reader(windowChild, 'cardStatus', {
+				message: `rfid retirado: ${card.uid}`,
+				status: false,
+				card: '',
+			});
+			cardStatusAdmin.sendCurrier();
 		});
 
 		reader.on('error', (err) => {

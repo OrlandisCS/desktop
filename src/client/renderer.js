@@ -14,7 +14,4 @@ window.electronAPI.getReaderStatus((event, args) => {
 	);
 });
 
-window.electronAPI.getCardStatus((event, args) => {
-	console.log('evento 2:');
-	console.log(args);
-});
+window.electronAPI.getCardStatus((event, args) => {});

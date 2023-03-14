@@ -1,0 +1,1013 @@
+[2023-03-14T01:20:47.444] [INFO] default - El RFID: 07f63419 ya está asignado a  Orlandis Cuevas soto
+[2023-03-14T01:21:40.500] [INFO] default - El RFID: 07f63419 ya está asignado a  Orlandis Cuevas soto
+[2023-03-14T01:33:39.610] [INFO] default - [45m[37m Solitud a cardStatus [39m[49m
+[2023-03-14T01:33:39.612] [INFO] default - [46m[37m rfid leido: 07f63419 [39m[49m
+[2023-03-14T01:33:39.613] [INFO] default - [45m[37m Solitud a cardStatus [39m[49m
+[2023-03-14T01:33:39.613] [INFO] default - [46m[37m rfid leido: 07f63419 [39m[49m
+[2023-03-14T01:33:40.525] [INFO] default - [45m[37m Solitud a readerStatus [39m[49m
+[2023-03-14T01:33:40.525] [INFO] default - [46m[37m Reader está activo [39m[49m
+[2023-03-14T01:35:01.116] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:35:01.118] [INFO] default - [46m[37m rfid leido: 07f63419 [39m[49m
+[2023-03-14T01:35:01.119] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:35:01.119] [INFO] default - [46m[37m rfid leido: 07f63419 [39m[49m
+[2023-03-14T01:35:02.043] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:35:02.044] [INFO] default - [46m[37m Reader está activo [39m[49m
+[2023-03-14T01:35:12.849] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:35:12.851] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:35:12.851] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:35:12.852] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:35:13.779] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:35:13.780] [INFO] default - Reader está activo 
+[2023-03-14T01:35:27.009] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:35:27.011] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:35:27.011] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:35:27.012] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:35:27.958] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:35:27.958] [INFO] default - Reader está activo 
+[2023-03-14T01:36:47.877] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:36:47.877] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:36:47.878] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:36:47.878] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:38:46.684] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:38:46.687] [INFO] default - Reader está activo 
+[2023-03-14T01:38:54.297] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:38:54.300] [INFO] default - Reader está activo 
+[2023-03-14T01:39:03.688] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:39:03.688] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:39:03.689] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:39:03.689] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:39:04.816] [INFO] default - El RFID: 07f63419 ya está asignado a  Orlandis Cuevas soto
+[2023-03-14T01:39:19.573] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:39:19.575] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:39:19.575] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:39:19.576] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:39:20.505] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:39:20.506] [INFO] default - Reader está activo 
+[2023-03-14T01:39:42.800] [INFO] default - El RFID: 07f63419 ya está asignado a  Orlandis Cuevas soto
+[2023-03-14T01:39:57.092] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:39:57.093] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:39:57.094] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:39:57.094] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:40:32.329] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:40:32.329] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:40:32.330] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:40:32.330] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:44:51.802] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:44:51.803] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:44:51.804] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:44:51.804] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:44:52.736] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:44:52.737] [INFO] default - Reader está activo 
+[2023-03-14T01:45:20.254] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:45:20.256] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:45:20.256] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:45:20.256] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:45:21.173] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:45:21.173] [INFO] default - Reader está activo 
+[2023-03-14T01:45:28.836] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:45:28.836] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:45:28.837] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:45:28.837] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:45:32.543] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:45:32.544] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:45:32.544] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:45:32.544] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:47:28.484] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:47:28.487] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:47:28.488] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:47:28.488] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:47:29.367] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:47:29.368] [INFO] default - Reader está activo 
+[2023-03-14T01:48:00.676] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:48:00.677] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:48:00.677] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:48:00.677] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:48:05.522] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:48:05.522] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:48:05.522] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:48:05.523] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:48:37.176] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:48:37.178] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:48:37.178] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:48:37.178] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:48:38.062] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:48:38.063] [INFO] default - Reader está activo 
+[2023-03-14T01:49:03.300] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:49:03.300] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:49:03.300] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:49:03.301] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:49:05.629] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:49:05.629] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:49:05.629] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:49:05.630] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:49:06.804] [INFO] default - RFID:07f63419 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T01:49:56.436] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:49:56.439] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:49:56.439] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:49:56.440] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:49:57.338] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:49:57.339] [INFO] default - Reader está activo 
+[2023-03-14T01:50:01.524] [INFO] default - El RFID: 07f63419 ya está asignado a  Orlandis Cuevas soto
+[2023-03-14T01:50:10.532] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:50:10.532] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:50:10.532] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:50:10.533] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:50:26.149] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:50:26.150] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:50:26.150] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:50:26.150] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:50:27.481] [INFO] default - RFID:07f63419 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T01:51:28.778] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:51:28.782] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:51:28.782] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:51:28.782] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:51:29.731] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:51:29.731] [INFO] default - Reader está activo 
+[2023-03-14T01:51:35.250] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:51:35.252] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:51:35.253] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:51:35.253] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:51:36.185] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:51:36.186] [INFO] default - Reader está activo 
+[2023-03-14T01:51:54.884] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:51:54.885] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:51:54.885] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:51:54.885] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:51:57.556] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:51:57.557] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:51:57.557] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:51:57.557] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:51:59.238] [INFO] default - RFID:07f63419 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T01:52:45.750] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:52:45.753] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:52:45.753] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:52:45.753] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:52:46.656] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:52:46.656] [INFO] default - Reader está activo 
+[2023-03-14T01:53:03.556] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:03.556] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:53:03.557] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:03.557] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:53:05.829] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:05.830] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:53:05.830] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:05.830] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:53:07.531] [INFO] default - RFID:07f63419 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T01:53:45.944] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:45.946] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:53:45.947] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:45.947] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:53:46.878] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:53:46.879] [INFO] default - Reader está activo 
+[2023-03-14T01:53:51.044] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:51.044] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:53:51.045] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:51.045] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:53:55.509] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:55.510] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T01:53:55.510] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:53:55.510] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T01:53:57.344] [INFO] default - RFID:908b0c04 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T01:54:05.348] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:54:05.349] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T01:54:05.349] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:54:05.349] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T01:54:11.260] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:54:11.261] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T01:54:11.261] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:54:11.261] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T01:54:17.572] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:54:17.572] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T01:54:17.573] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:54:17.573] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T01:56:48.635] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:56:48.637] [INFO] default - Reader está activo 
+[2023-03-14T01:57:08.070] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:57:08.071] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:57:08.071] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:57:08.071] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:57:14.084] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:57:14.085] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:57:14.085] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:57:14.085] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:57:20.089] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:57:20.090] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:57:20.090] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:57:20.090] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:57:26.364] [INFO] default - RFID:07f63419 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T01:57:42.532] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:57:42.533] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:57:42.533] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:57:42.533] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T01:57:52.133] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:57:52.134] [INFO] default - Reader está activo 
+[2023-03-14T01:58:48.561] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T01:58:48.563] [INFO] default - Reader está activo 
+[2023-03-14T01:58:55.012] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:58:55.012] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:58:55.013] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T01:58:55.013] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T01:58:55.913] [INFO] default - RFID:07f63419 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T02:00:07.367] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:00:07.369] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:00:07.369] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:00:07.369] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:00:08.287] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:00:08.288] [INFO] default - Reader está activo 
+[2023-03-14T02:01:27.096] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:01:27.098] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:01:27.098] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:01:27.099] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:01:28.031] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:01:28.031] [INFO] default - Reader está activo 
+[2023-03-14T02:02:21.269] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:02:21.271] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:02:21.272] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:02:21.272] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:02:22.201] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:02:22.201] [INFO] default - Reader está activo 
+[2023-03-14T02:02:28.004] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:02:28.004] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:02:28.005] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:02:28.005] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:02:32.560] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:02:32.560] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:02:32.560] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:02:32.561] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:02:34.257] [INFO] default - RFID:908b0c04 asignada a Yosoytostao  exitosamente
+[2023-03-14T02:02:40.451] [INFO] default - El RFID: 908b0c04 ya está asignado a  Yosoytostao 
+[2023-03-14T02:02:40.635] [INFO] default - El RFID: 908b0c04 ya está asignado a  Yosoytostao 
+[2023-03-14T02:02:40.787] [INFO] default - El RFID: 908b0c04 ya está asignado a  Yosoytostao 
+[2023-03-14T02:02:41.003] [INFO] default - El RFID: 908b0c04 ya está asignado a  Yosoytostao 
+[2023-03-14T02:02:41.155] [INFO] default - El RFID: 908b0c04 ya está asignado a  Yosoytostao 
+[2023-03-14T02:02:41.291] [INFO] default - El RFID: 908b0c04 ya está asignado a  Yosoytostao 
+[2023-03-14T02:03:08.156] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:03:08.159] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:03:08.159] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:03:08.160] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:03:09.074] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:03:09.075] [INFO] default - Reader está activo 
+[2023-03-14T02:03:18.272] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:03:18.274] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:03:18.274] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:03:18.274] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:03:19.206] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:03:19.206] [INFO] default - Reader está activo 
+[2023-03-14T02:03:21.979] [INFO] default - El RFID: 908b0c04 ya está asignado a  Yosoytostao 
+[2023-03-14T02:03:46.549] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:03:46.551] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:03:46.552] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:03:46.552] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:03:47.474] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:03:47.474] [INFO] default - Reader está activo 
+[2023-03-14T02:03:49.120] [INFO] default - RFID:908b0c04 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T02:04:30.711] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:04:30.713] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:04:30.713] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:04:30.714] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:04:31.645] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:04:31.646] [INFO] default - Reader está activo 
+[2023-03-14T02:04:49.841] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:04:49.843] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:04:49.843] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:04:49.843] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:04:50.774] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:04:50.775] [INFO] default - Reader está activo 
+[2023-03-14T02:04:53.268] [INFO] default - RFID:908b0c04 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T02:08:20.037] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:20.038] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T02:08:20.040] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:20.042] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T02:08:31.324] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:31.325] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:08:31.326] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:31.326] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T02:08:32.183] [INFO] default - El RFID: 908b0c04 ya está asignado a  Orlandis Cuevas soto
+[2023-03-14T02:08:34.884] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:34.884] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T02:08:34.884] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:34.885] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T02:08:48.660] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:48.661] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:08:48.661] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:48.661] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:08:50.596] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:50.596] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:08:50.597] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:50.598] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:08:57.604] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:57.604] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:08:57.605] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:08:57.605] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:08:59.867] [INFO] default - RFID:07f63419 asignada a Juan Cuevas Perez exitosamente
+[2023-03-14T02:09:29.957] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:09:29.957] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:09:29.958] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:09:29.959] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:09:34.433] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:09:34.434] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:09:34.435] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:09:34.435] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:10:08.608] [INFO] default - RFID:07f63419 asignada a Ander cuevas exitosamente
+[2023-03-14T02:12:40.648] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:12:40.652] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:12:40.653] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:12:40.653] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:12:41.550] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:12:41.550] [INFO] default - Reader está activo 
+[2023-03-14T02:12:48.084] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:12:48.086] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:12:48.087] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:12:48.087] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:12:49.001] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T02:12:49.001] [INFO] default - Reader está activo 
+[2023-03-14T02:13:24.964] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:13:24.965] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:13:24.965] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:13:24.965] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:13:28.367] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:13:28.368] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:13:28.368] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:13:28.368] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T02:13:31.437] [INFO] default - RFID:07f63419 asignada a Ander cuevas exitosamente
+[2023-03-14T02:13:35.455] [INFO] default - El RFID: 07f63419 ya está asignado a  Ander cuevas
+[2023-03-14T02:13:38.744] [INFO] default - El RFID: 07f63419 ya está asignado a  Ander cuevas
+[2023-03-14T02:13:44.516] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:13:44.516] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T02:13:44.517] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T02:13:44.517] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:37:08.645] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T14:37:08.648] [INFO] default - Reader está activo 
+[2023-03-14T14:37:31.906] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:37:31.907] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T14:37:31.907] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:37:31.907] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T14:37:32.915] [INFO] default - El RFID: 07f63419 ya está asignado a  Ander cuevas
+[2023-03-14T14:37:40.147] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:37:40.147] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:37:40.147] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:37:40.148] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:38:20.453] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:20.454] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T14:38:20.454] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:20.454] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T14:38:22.674] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:22.674] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:38:22.674] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:22.675] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:38:26.799] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:26.800] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T14:38:26.800] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:26.800] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T14:38:27.822] [INFO] default - RFID:07f63419 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T14:38:40.242] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:40.243] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:38:40.243] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:40.243] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:38:44.359] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:44.359] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T14:38:44.360] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:38:44.360] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T14:39:19.986] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:39:19.987] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:39:19.987] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T14:39:19.987] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T14:50:19.029] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T14:50:19.031] [INFO] default - Reader está activo 
+[2023-03-14T14:51:27.306] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T14:51:27.309] [INFO] default - Reader está activo 
+[2023-03-14T14:52:20.842] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T14:52:20.844] [INFO] default - Reader está activo 
+[2023-03-14T14:55:30.980] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T14:55:30.989] [INFO] default - Reader está activo 
+[2023-03-14T14:55:35.967] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T14:55:35.974] [INFO] default - Reader está activo 
+[2023-03-14T15:13:53.780] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:13:53.786] [INFO] default - Reader está activo 
+[2023-03-14T15:14:12.641] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:14:12.646] [INFO] default - Reader está activo 
+[2023-03-14T15:15:16.600] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:15:18.433] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:15:18.435] [INFO] default - Reader está activo 
+[2023-03-14T15:16:36.936] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:16:38.778] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:16:38.779] [INFO] default - Reader está activo 
+[2023-03-14T15:18:12.423] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:18:14.254] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:18:14.255] [INFO] default - Reader está activo 
+[2023-03-14T15:18:29.083] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:18:30.907] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:18:30.908] [INFO] default - Reader está activo 
+[2023-03-14T15:19:15.940] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:19:17.751] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:19:17.752] [INFO] default - Reader está activo 
+[2023-03-14T15:21:19.655] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:21:21.483] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:21:21.485] [INFO] default - Reader está activo 
+[2023-03-14T15:21:31.966] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:21:33.790] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:21:33.792] [INFO] default - Reader está activo 
+[2023-03-14T15:22:52.158] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:22:53.921] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:22:53.922] [INFO] default - Reader está activo 
+[2023-03-14T15:23:54.239] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:23:56.018] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:23:56.019] [INFO] default - Reader está activo 
+[2023-03-14T15:25:06.807] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:25:08.565] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:25:08.566] [INFO] default - Reader está activo 
+[2023-03-14T15:25:38.147] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:25:39.878] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:25:39.879] [INFO] default - Reader está activo 
+[2023-03-14T15:26:06.211] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:26:07.980] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:26:07.981] [INFO] default - Reader está activo 
+[2023-03-14T15:26:24.225] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:26:33.730] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:26:35.488] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:26:35.489] [INFO] default - Reader está activo 
+[2023-03-14T15:28:05.289] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:28:07.066] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:28:07.066] [INFO] default - Reader está activo 
+[2023-03-14T15:28:24.810] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:28:26.630] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:28:26.631] [INFO] default - Reader está activo 
+[2023-03-14T15:29:27.914] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:29:29.713] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:29:29.715] [INFO] default - Reader está activo 
+[2023-03-14T15:29:41.906] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:29:43.620] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:29:43.621] [INFO] default - Reader está activo 
+[2023-03-14T15:32:38.860] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:32:40.635] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:32:40.636] [INFO] default - Reader está activo 
+[2023-03-14T15:33:41.847] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:33:43.640] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:33:43.641] [INFO] default - Reader está activo 
+[2023-03-14T15:34:23.987] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:34:25.785] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:34:25.786] [INFO] default - Reader está activo 
+[2023-03-14T15:36:23.928] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:36:25.723] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:36:25.725] [INFO] default - Reader está activo 
+[2023-03-14T15:36:33.438] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:36:35.273] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:36:35.274] [INFO] default - Reader está activo 
+[2023-03-14T15:37:07.335] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:37:09.179] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:37:09.180] [INFO] default - Reader está activo 
+[2023-03-14T15:37:14.052] [INFO] default - se eliminó el RFID: 07f63419 de Orlandis Cuevas soto
+[2023-03-14T15:37:14.058] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:37:37.440] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:37:39.268] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:37:39.269] [INFO] default - Reader está activo 
+[2023-03-14T15:37:46.515] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:37:48.352] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:37:48.354] [INFO] default - Reader está activo 
+[2023-03-14T15:37:57.933] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:37:57.934] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:37:57.935] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:37:57.936] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:37:58.585] [INFO] default - RFID:07f63419 asignada a Orlandis Cuevas soto exitosamente
+[2023-03-14T15:37:58.591] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:38:00.981] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:38:00.982] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T15:38:00.983] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:38:00.984] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T15:38:03.673] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:38:03.674] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:38:03.675] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:38:03.676] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:38:08.341] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:38:08.342] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T15:38:08.343] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:38:08.344] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T15:38:15.204] [INFO] default - se eliminó el RFID: 07f63419 de Orlandis Cuevas soto
+[2023-03-14T15:38:15.211] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:39:50.224] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:39:52.048] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:39:52.049] [INFO] default - Reader está activo 
+[2023-03-14T15:40:26.052] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:40:27.803] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:40:27.805] [INFO] default - Reader está activo 
+[2023-03-14T15:40:37.191] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:40:37.192] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:40:37.193] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:40:37.193] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:40:38.405] [INFO] default - RFID:07f63419 asignada a Juan Cuevas Perez exitosamente
+[2023-03-14T15:40:38.412] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:40:39.643] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:40:45.140] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:40:45.141] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T15:40:45.142] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:40:45.143] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T15:40:49.351] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:40:49.352] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:40:49.353] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:40:49.353] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:40:50.334] [ERROR] default - El RFID: 07f63419 ya está asignado a  Juan Cuevas Perez
+[2023-03-14T15:40:55.872] [INFO] default - se eliminó el RFID: 07f63419 de Juan Cuevas Perez
+[2023-03-14T15:40:55.879] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:40:56.976] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:41:18.111] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T15:41:18.865] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:41:18.866] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:41:18.868] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:41:18.869] [INFO] default - rfid leido: 07f63419 
+[2023-03-14T15:41:19.781] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T15:41:19.782] [INFO] default - Reader está activo 
+[2023-03-14T15:41:27.412] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:41:27.415] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T15:41:27.416] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T15:41:27.417] [INFO] default - rfid retirado: 07f63419 
+[2023-03-14T17:08:33.139] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:08:34.954] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:08:34.954] [INFO] default - Reader está activo 
+[2023-03-14T17:08:51.003] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:08:52.839] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:08:52.840] [INFO] default - Reader está activo 
+[2023-03-14T17:11:38.934] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:11:40.700] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:11:40.700] [INFO] default - Reader está activo 
+[2023-03-14T17:12:07.364] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:12:09.172] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:12:09.173] [INFO] default - Reader está activo 
+[2023-03-14T17:12:15.504] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:12:44.489] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:12:46.264] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:12:46.265] [INFO] default - Reader está activo 
+[2023-03-14T17:12:52.896] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:12:53.689] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:13:32.009] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:13:32.617] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:13:32.789] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:13:32.929] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:14:35.297] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:01.262] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:03.051] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:15:03.053] [INFO] default - Reader está activo 
+[2023-03-14T17:15:36.036] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:36.495] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:36.683] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:36.836] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:37.002] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:37.513] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:37.849] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:39.588] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:41.369] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:41.449] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:41.617] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:41.787] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:41.941] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:42.117] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:42.317] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:42.518] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:15:42.772] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:16:32.017] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:16:33.808] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:16:33.809] [INFO] default - Reader está activo 
+[2023-03-14T17:16:37.365] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:16:37.791] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:16:37.943] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:16:38.114] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:17:27.454] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:18:20.795] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:20:01.304] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:20:03.102] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:20:03.103] [INFO] default - Reader está activo 
+[2023-03-14T17:20:27.538] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:20:29.356] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:20:29.356] [INFO] default - Reader está activo 
+[2023-03-14T17:20:43.974] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:20:45.771] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:20:45.771] [INFO] default - Reader está activo 
+[2023-03-14T17:22:15.910] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:22:17.732] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:22:17.733] [INFO] default - Reader está activo 
+[2023-03-14T17:24:05.920] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:24:07.728] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:24:07.728] [INFO] default - Reader está activo 
+[2023-03-14T17:27:10.417] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:27:12.231] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:27:12.231] [INFO] default - Reader está activo 
+[2023-03-14T17:27:21.756] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:27:23.539] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:27:23.540] [INFO] default - Reader está activo 
+[2023-03-14T17:30:39.594] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:30:41.404] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:30:41.404] [INFO] default - Reader está activo 
+[2023-03-14T17:31:15.438] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:31:17.224] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:31:17.225] [INFO] default - Reader está activo 
+[2023-03-14T17:32:11.870] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:32:13.666] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:32:13.666] [INFO] default - Reader está activo 
+[2023-03-14T17:32:46.117] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:32:47.920] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:32:47.920] [INFO] default - Reader está activo 
+[2023-03-14T17:33:06.060] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:33:07.860] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:33:07.861] [INFO] default - Reader está activo 
+[2023-03-14T17:34:33.677] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:34:35.498] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:34:35.498] [INFO] default - Reader está activo 
+[2023-03-14T17:35:01.655] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:35:03.473] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:35:03.473] [INFO] default - Reader está activo 
+[2023-03-14T17:35:26.903] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:35:28.714] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:35:28.715] [INFO] default - Reader está activo 
+[2023-03-14T17:35:42.784] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:35:44.588] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:35:44.588] [INFO] default - Reader está activo 
+[2023-03-14T17:37:06.709] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:37:08.529] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:37:08.530] [INFO] default - Reader está activo 
+[2023-03-14T17:37:17.161] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:37:18.972] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:37:18.973] [INFO] default - Reader está activo 
+[2023-03-14T17:37:30.128] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:37:31.941] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:37:31.941] [INFO] default - Reader está activo 
+[2023-03-14T17:37:44.047] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:37:45.847] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:37:45.848] [INFO] default - Reader está activo 
+[2023-03-14T17:37:50.513] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:37:52.326] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:37:52.327] [INFO] default - Reader está activo 
+[2023-03-14T17:38:54.359] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:38:56.154] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:38:56.154] [INFO] default - Reader está activo 
+[2023-03-14T17:40:26.193] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:40:32.829] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:40:41.113] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:41:19.661] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:44:25.154] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:44:26.959] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:44:26.959] [INFO] default - Reader está activo 
+[2023-03-14T17:45:02.291] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:45:04.089] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:45:04.090] [INFO] default - Reader está activo 
+[2023-03-14T17:47:16.475] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:47:59.005] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:49:05.449] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:49:07.257] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:49:07.258] [INFO] default - Reader está activo 
+[2023-03-14T17:49:51.438] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:49:53.261] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:49:53.261] [INFO] default - Reader está activo 
+[2023-03-14T17:50:27.874] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:50:29.701] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:50:29.702] [INFO] default - Reader está activo 
+[2023-03-14T17:51:02.156] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:51:03.967] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:51:03.968] [INFO] default - Reader está activo 
+[2023-03-14T17:51:10.126] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:51:11.949] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:51:11.949] [INFO] default - Reader está activo 
+[2023-03-14T17:51:45.787] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:51:47.593] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:51:47.594] [INFO] default - Reader está activo 
+[2023-03-14T17:52:20.911] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:52:22.713] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:52:22.713] [INFO] default - Reader está activo 
+[2023-03-14T17:52:47.717] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:52:47.718] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:52:47.718] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:52:47.719] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:53:14.479] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:53:15.356] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:53:15.357] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:53:15.357] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:53:15.358] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:53:16.286] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:53:16.286] [INFO] default - Reader está activo 
+[2023-03-14T17:53:49.917] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:53:50.811] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:53:50.812] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:53:50.813] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:53:50.813] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:53:51.737] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:53:51.738] [INFO] default - Reader está activo 
+[2023-03-14T17:53:56.435] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:53:57.329] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:53:57.330] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:53:57.330] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:53:57.330] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:53:58.266] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:53:58.266] [INFO] default - Reader está activo 
+[2023-03-14T17:54:15.489] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:54:16.359] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:54:16.359] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:54:16.359] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:54:16.360] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:54:17.298] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:54:17.298] [INFO] default - Reader está activo 
+[2023-03-14T17:54:18.580] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:54:19.480] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:54:19.480] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:54:19.481] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:54:19.481] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:54:20.386] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:54:20.386] [INFO] default - Reader está activo 
+[2023-03-14T17:54:33.612] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:54:34.502] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:54:34.503] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:54:34.503] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:54:34.503] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:54:35.430] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:54:35.431] [INFO] default - Reader está activo 
+[2023-03-14T17:55:05.649] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:55:06.525] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:55:06.526] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:55:06.527] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:55:06.527] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:55:07.459] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:55:07.459] [INFO] default - Reader está activo 
+[2023-03-14T17:55:15.809] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:55:16.688] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:55:16.688] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:55:16.689] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:55:16.689] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:55:17.616] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:55:17.617] [INFO] default - Reader está activo 
+[2023-03-14T17:55:45.510] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:55:46.377] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:55:46.378] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:55:46.378] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:55:46.379] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:55:47.321] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:55:47.321] [INFO] default - Reader está activo 
+[2023-03-14T17:56:18.046] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:56:18.926] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:56:18.927] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:56:18.928] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:56:18.928] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:56:19.861] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:56:19.861] [INFO] default - Reader está activo 
+[2023-03-14T17:56:41.841] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:56:42.702] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:56:42.703] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:56:42.703] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:56:42.704] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:56:43.630] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:56:43.631] [INFO] default - Reader está activo 
+[2023-03-14T17:57:13.269] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:57:14.148] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:57:14.149] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:57:14.149] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:57:14.149] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:57:15.078] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:57:15.079] [INFO] default - Reader está activo 
+[2023-03-14T17:57:58.429] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:57:59.301] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:57:59.302] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:57:59.302] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:57:59.303] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:58:00.238] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:58:00.239] [INFO] default - Reader está activo 
+[2023-03-14T17:58:32.809] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:58:33.700] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:58:33.701] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:58:33.701] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:58:33.702] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:58:34.626] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:58:34.626] [INFO] default - Reader está activo 
+[2023-03-14T17:58:35.815] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T17:58:36.695] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:58:36.696] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:58:36.696] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T17:58:36.696] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T17:58:37.621] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T17:58:37.622] [INFO] default - Reader está activo 
+[2023-03-14T18:01:52.074] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:01:52.955] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:01:52.955] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:01:52.956] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:01:52.956] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:01:53.880] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:01:53.881] [INFO] default - Reader está activo 
+[2023-03-14T18:02:14.421] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:02:15.306] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:02:15.307] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:02:15.307] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:02:15.308] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:02:17.317] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:02:18.213] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:02:18.214] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:02:18.215] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:02:18.215] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:02:19.133] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:02:19.134] [INFO] default - Reader está activo 
+[2023-03-14T18:03:34.884] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:03:35.769] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:03:35.769] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:03:35.770] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:03:35.770] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:03:36.712] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:03:36.712] [INFO] default - Reader está activo 
+[2023-03-14T18:03:44.507] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:03:45.391] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:03:45.391] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:03:45.392] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:03:45.392] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:03:46.330] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:03:46.330] [INFO] default - Reader está activo 
+[2023-03-14T18:04:01.573] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:04:02.455] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:04:02.455] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:04:02.456] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:04:02.456] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:04:03.392] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:04:03.393] [INFO] default - Reader está activo 
+[2023-03-14T18:04:09.496] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:04:10.360] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:04:10.361] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:04:10.361] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:04:10.362] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:04:11.286] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:04:11.287] [INFO] default - Reader está activo 
+[2023-03-14T18:04:13.068] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:04:13.953] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:04:13.953] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:04:13.954] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:04:13.954] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:04:14.889] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:04:14.889] [INFO] default - Reader está activo 
+[2023-03-14T18:06:07.168] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:06:08.045] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:06:08.046] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:06:08.046] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:06:08.047] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:06:08.976] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:06:08.976] [INFO] default - Reader está activo 
+[2023-03-14T18:06:17.125] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:06:18.008] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:06:18.008] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:06:18.009] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:06:18.009] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:06:18.941] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:06:18.942] [INFO] default - Reader está activo 
+[2023-03-14T18:06:41.186] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:06:42.070] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:06:42.070] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:06:42.071] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:06:42.072] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:06:43.016] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:06:43.016] [INFO] default - Reader está activo 
+[2023-03-14T18:07:22.436] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:08:53.072] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:08:53.913] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:08:53.913] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:08:53.913] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:08:53.914] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:08:54.851] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:08:54.851] [INFO] default - Reader está activo 
+[2023-03-14T18:08:58.216] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:08:59.106] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:08:59.107] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:08:59.107] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:08:59.108] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:09:00.047] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:09:00.048] [INFO] default - Reader está activo 
+[2023-03-14T18:12:39.343] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:12:40.232] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:12:40.233] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:12:40.233] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:12:40.234] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:12:41.150] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:12:41.151] [INFO] default - Reader está activo 
+[2023-03-14T18:12:50.682] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:12:51.539] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:12:51.540] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:12:51.540] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:12:51.541] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:12:52.477] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:12:52.478] [INFO] default - Reader está activo 
+[2023-03-14T18:13:00.570] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:13:01.453] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:13:01.453] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:13:01.454] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:13:01.454] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:13:02.395] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:13:02.395] [INFO] default - Reader está activo 
+[2023-03-14T18:13:34.681] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:13:35.577] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:13:35.577] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:13:35.577] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:13:35.578] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:13:36.491] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:13:36.491] [INFO] default - Reader está activo 
+[2023-03-14T18:13:46.546] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:13:47.429] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:13:47.430] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:13:47.430] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:13:47.430] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:13:48.358] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:13:48.358] [INFO] default - Reader está activo 
+[2023-03-14T18:13:58.127] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:13:58.997] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:13:58.997] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:13:58.998] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:13:58.998] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:13:59.931] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:13:59.931] [INFO] default - Reader está activo 
+[2023-03-14T18:14:09.000] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:14:09.889] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:14:09.890] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:14:09.890] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:14:09.891] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:14:10.803] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:14:10.804] [INFO] default - Reader está activo 
+[2023-03-14T18:16:57.377] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:17:44.907] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:17:57.067] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:21:08.870] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:21:48.257] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:23:37.839] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:23:38.703] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:23:38.704] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:23:38.704] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:23:38.704] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:23:39.644] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:23:39.644] [INFO] default - Reader está activo 
+[2023-03-14T18:24:00.626] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:24:01.522] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:24:01.523] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:24:01.523] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:24:01.524] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:24:02.450] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:24:02.451] [INFO] default - Reader está activo 
+[2023-03-14T18:24:24.339] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:24:25.216] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:24:25.216] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:24:25.217] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:24:25.217] [INFO] default - rfid leido: 908b0c04 
+[2023-03-14T18:24:26.158] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:24:26.159] [INFO] default - Reader está activo 
+[2023-03-14T18:24:45.751] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:24:45.752] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T18:24:45.752] [INFO] default -  Solitud a cardStatus 
+[2023-03-14T18:24:45.752] [INFO] default - rfid retirado: 908b0c04 
+[2023-03-14T18:27:07.117] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:27:39.929] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:27:58.830] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:28:51.584] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:29:06.121] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:29:29.578] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:29:39.172] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:29:49.832] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:30:54.357] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:30:56.167] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:30:56.168] [INFO] default - Reader está activo 
+[2023-03-14T18:31:05.422] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:31:06.667] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:31:09.763] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:31:11.565] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:31:11.565] [INFO] default - Reader está activo 
+[2023-03-14T18:31:35.428] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:31:52.037] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:31:53.854] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:31:53.855] [INFO] default - Reader está activo 
+[2023-03-14T18:39:25.381] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:39:27.088] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:39:27.090] [INFO] default - Reader está activo 
+[2023-03-14T18:39:29.673] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:39:31.493] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:39:31.494] [INFO] default - Reader está activo 
+[2023-03-14T18:41:41.311] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:41:43.115] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:41:43.116] [INFO] default - Reader está activo 
+[2023-03-14T18:41:54.065] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:41:55.885] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:41:55.887] [INFO] default - Reader está activo 
+[2023-03-14T18:42:23.720] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:42:25.520] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:42:25.521] [INFO] default - Reader está activo 
+[2023-03-14T18:42:37.054] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:42:38.869] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:42:38.870] [INFO] default - Reader está activo 
+[2023-03-14T18:42:47.691] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:42:49.499] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:42:49.500] [INFO] default - Reader está activo 
+[2023-03-14T18:43:16.810] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:43:18.600] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:43:18.601] [INFO] default - Reader está activo 
+[2023-03-14T18:43:38.341] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:43:40.149] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:43:40.150] [INFO] default - Reader está activo 
+[2023-03-14T18:44:52.579] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:44:54.378] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:44:54.378] [INFO] default - Reader está activo 
+[2023-03-14T18:45:07.471] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:45:09.242] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:45:09.242] [INFO] default - Reader está activo 
+[2023-03-14T18:45:20.658] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:45:22.448] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:45:22.448] [INFO] default - Reader está activo 
+[2023-03-14T18:45:28.553] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:45:30.286] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:45:30.286] [INFO] default - Reader está activo 
+[2023-03-14T18:49:34.946] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-14T18:49:35.761] [INFO] default -  Solitud a readerStatus 
+[2023-03-14T18:49:35.763] [INFO] default - Reader está activo 

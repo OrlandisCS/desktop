@@ -7,6 +7,12 @@
 	flex-direction: column;
 	margin: 0 auto;
 }
+.container__css__text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
 .texts-content h1 {
 	margin-left: -100px;
 	text-transform: uppercase;
@@ -28,6 +34,9 @@
 	padding: 8px;
 
 	border-radius: 5px;
+}
+.badge__container__admin {
+	position: unset;
 }
 .reader__is__ready {
 	background: #3bc14a;
@@ -73,4 +82,20 @@
 }
 .refs__rfid .rfid__icons {
 	width: 30px;
+}
+.hidden__element {
+	display: none;
+}
+
+.view__element {
+	display: block;
+}
+.fancyGrid {
+	position: relative;
+}
+.block__logo {
+	position: fixed;
+	bottom: 120px;
+	right: 313px;
+	z-index: 999999;
 }

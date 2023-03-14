@@ -1,5 +1,5 @@
-const { courier, receive } = require('./utils/send');
-const { bgCyan, bgMagenta, white } = require('colorette');
+const { courier } = require('./utils/send');
+const useLogger = require('./helpers/logger');
 class Reader {
 	constructor(activeMainWindow, channel, args) {
 		this.window = activeMainWindow;
@@ -12,9 +12,8 @@ class Reader {
 	}
 
 	logger() {
-		console.log(bgMagenta(white(` Solitud a ${this.channel} `)));
-		console.log('');
-		console.log(bgCyan(white(` ${this.args.message} `)));
+		useLogger('info', ` Solitud a ${this.channel} `);
+		useLogger('info', `${this.args.message} `);
 	}
 }
 
