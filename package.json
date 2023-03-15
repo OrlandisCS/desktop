@@ -1,5 +1,5 @@
 {
-	"name": "rfid-sign",
+	"name": "msp-desk",
 	"version": "1.0.0",
 	"description": "This app has been created by Orlandis Cuevas",
 	"author": "OrlandisDev",
@@ -24,13 +24,18 @@
 				},
 				{
 					"name": "@electron-forge/maker-deb",
-					"config": {}
+					"config": {
+						"options": {
+							"maintainer": "OrlanidisDev",
+							"homepage": "https://orlandis.tech"
+						}
+					}
 				},
 				{
 					"name": "@electron-forge/maker-zip"
 				}
 			],
-			"buildIdentifier": "Sign-build"
+			"buildIdentifier": "msp-app"
 		}
 	},
 	"keywords": [],
