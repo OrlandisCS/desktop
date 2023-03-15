@@ -26,4 +26,8 @@ contextBridge.exposeInMainWorld('electronAPI', {
 		ipcRenderer.invoke('deleteRfidFromUser', arg),
 	deleteRfidFromUserResponse: (callback) =>
 		ipcRenderer.on('response:deleteRfidFromUser', callback),
+
+	//get user to rfid passed
+	viewUserOnCardReader: (callback) =>
+		ipcRenderer.on('response:viewUserOnCardReader', callback),
 });

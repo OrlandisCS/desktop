@@ -35,6 +35,21 @@
 
 	border-radius: 5px;
 }
+.badge__container__time {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	border-radius: 5px;
+	background: #ffc107;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
 .badge__container__admin {
 	position: unset;
 }
@@ -98,4 +113,19 @@
 	bottom: 120px;
 	right: 313px;
 	z-index: 999999;
+}
+/* .span__on__schedules {
+	color: white;
+} */
+.main__h3__schedules {
+	margin-left: 115px !important;
+	color: #ffc107 !important;
+}
+.h3__schedules {
+	margin-left: 150px !important;
+	color: #ffc107 !important;
+}
+
+.un__left__container {
+	margin-left: -70px !important;
 }

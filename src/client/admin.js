@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	const closeModalNewUser = document.querySelector(
 		'#closeModalNewUser'
 	);
+
 	//getCardStatus
 	let readerCard;
 	function deleteRFID(rf, userId, alternative) {

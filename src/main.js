@@ -6,6 +6,8 @@ const nfc = new NFC(); // optionally you can pass logger
 const { Reader } = require('./reader');
 const createMenu = require('./utils/create.menu');
 const { icon, isDev } = require('../config.json');
+const { getValidUser } = require('./controllers/users');
+const { getTime } = require('./utils/useDate');
 let mainWindow;
 let windowChild;
 
@@ -48,6 +50,7 @@ const createWindow = () => {
 	nfc.on('reader', (reader) => {
 		isDev &&
 			BrowserWindow.getFocusedWindow().webContents.openDevTools();
+		console.log(getTime() <= '20:00:00');
 
 		clearInterval(interval);
 		interval = setTimeout(() => {
@@ -60,21 +63,25 @@ const createWindow = () => {
 
 		reader.on('card', async (card) => {
 			if (card.type !== 'TAG_ISO_14443_3') return;
-			clearInterval(altInterval);
+
+			const userData = await getValidUser(card);
 			const cardStatus = new Reader(mainWindow, 'cardStatus', {
 				message: `rfid leido: ${card.uid}`,
 				status: true,
-				card,
+				card: card.uid,
+				userData,
 			});
+
 			const cardStatusAdmin = new Reader(windowChild, 'cardStatus', {
 				message: `rfid leido: ${card.uid}`,
 				status: true,
 				card: card.uid,
 			});
-			altInterval = setTimeout(() => {
-				cardStatus.sendCurrier();
-				cardStatusAdmin.sendCurrier();
-			}, 1000);
+
+			cardStatus.sendCurrier();
+			cardStatusAdmin.sendCurrier();
+
+			userRead.sendCurrier();
 		});
 
 		reader.on('card.off', (card) => {

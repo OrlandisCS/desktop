@@ -1,4 +1,5 @@
 const Employe = require('../models/employe');
+const { saveUserSchedules } = require('./schedules');
 /**
  * It creates a new user in the database if the user doesn't exist,
  * otherwise it returns a message saying that the user already exists.
@@ -56,7 +57,27 @@ const getAllEmployes = async () => {
 		employes: JSON.stringify(employes),
 	};
 };
+const invalidrfid = () => {
+	return {
+		message: `RFID no asignada a ningún usuario`,
+		success: false,
+		color: '#db3a34',
+	};
+};
+const getValidUser = async (cardUid) => {
+	const users = await Employe.findOne({
+		$or: [{ rfid: cardUid.uid }, { alternativeRfid: cardUid.uid }],
+	});
+	if (users) {
+		return await saveUserSchedules(users);
+	}
+	console.log('no hay usuario');
+
+	return invalidrfid();
+};
+
 module.exports = {
 	createUser,
 	getAllEmployes,
+	getValidUser,
 };
