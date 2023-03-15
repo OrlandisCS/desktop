@@ -20,19 +20,23 @@
 			"makers": [
 				{
 					"name": "@electron-forge/maker-squirrel",
-					"config": {}
-				},
-				{
-					"name": "@electron-forge/maker-deb",
 					"config": {
-						"options": {
-							"maintainer": "OrlanidisDev",
-							"homepage": "https://orlandis.tech"
-						}
+						"name": "msp-desk"
 					}
 				},
 				{
-					"name": "@electron-forge/maker-zip"
+					"name": "@electron-forge/maker-zip",
+					"platforms": [
+						"darwin"
+					]
+				},
+				{
+					"name": "@electron-forge/maker-deb",
+					"config": {}
+				},
+				{
+					"name": "@electron-forge/maker-rpm",
+					"config": {}
 				}
 			],
 			"buildIdentifier": "msp-app"
