@@ -1,11 +1,12 @@
+//muestra hace : @Date.now()
+const userLocaleData = document.querySelector('#userLocaleData');
+
 const badgeStatus = document.querySelector('.reader__status');
 const timeActually = document.querySelector('.timeActually');
 const messageUserOnReaderCard = document.querySelector(
 	'#messageUserOnReaderCard'
 );
 const mainPageImage = document.querySelector('#mainPageImage');
-/* new Date().getHours() + '-' + new Date().getMinutes() + '-' + new Date().getSeconds()*/
-
 const defautlText = 'Pase su tarjeta por el lector rfid';
 const defautlImage = `<img
 src="./assets/icons/lector.png"
@@ -35,7 +36,7 @@ let interval;
 const setUserState = (args) => {
 	mainPageImage.classList.add('un__left__container');
 	if (args.userData) {
-		messageUserOnReaderCard.innerHTML = args.userData.message;
+		messageUserOnReaderCard.innerHTML = ' ' + args.userData.message;
 	}
 	if (args.status) {
 		const { date, firstTime, firstExit, secondTime, lastExit } =
@@ -49,19 +50,25 @@ const setUserState = (args) => {
 		</tr>
 		<tr>
 		  <th scope="row"><h2>Primer tiempo: </h2></th>
-		 <td><h3 class='h3__schedules'>${firstTime}</h3></td>
+		 <td><h3 class='h3__schedules'>${
+				firstTime ? firstTime : '-'
+			}</h3></td>
 		</tr>
 		<tr>
 		  <th scope="row"><h2>Primera Salida: </h2></th>
-		 <td><h3 class='h3__schedules'>${firstExit}</h3></td>
+		 <td><h3 class='h3__schedules'>${
+				firstExit ? firstExit : '-'
+			}</h3></td>
 		</tr>
 		<tr>
 		  <th scope="row"><h2>Segundo tiempo: </h2></th>
-		 <td><h3 class='h3__schedules'>${secondTime}</h3></td>
+		 <td><h3 class='h3__schedules'>${
+				secondTime ? secondTime : '-'
+			}</h3></td>
 		</tr>
 		<tr>
 		  <th scope="row"><h2>Jornada Finalizada: </h2></th>
-		 <td><h3 class='h3__schedules'>${lastExit}</h3></td>
+		 <td><h3 class='h3__schedules'>${lastExit ? lastExit : '-'}</h3></td>
 		</tr>
 	  </tbody>
 		</table>
@@ -71,10 +78,15 @@ const setUserState = (args) => {
 		mainPageImage.classList.remove('un__left__container');
 		messageUserOnReaderCard.innerHTML = defautlText;
 		mainPageImage.innerHTML = defautlImage;
+		userLocaleData.innerHTML = '';
+	}
+	if (args.userData.time && args.userData.time.length > 0) {
+		userLocaleData.innerHTML = args.userData.time;
 	}
 };
 
 window.electronAPI.getReaderStatus((event, args) => {
+	console.log(args);
 	if (args.status) {
 		document
 			.querySelector('.main__Loader')

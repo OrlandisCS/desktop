@@ -1,5 +1,9 @@
 const Employe = require('../models/employe');
+const { getDate, getTime } = require('../utils/useDate');
 const { saveUserSchedules } = require('./schedules');
+const path = require('path');
+const { Types } = require('mongoose');
+const Schedules = require('../models/schedules');
 /**
  * It creates a new user in the database if the user doesn't exist,
  * otherwise it returns a message saying that the user already exists.
@@ -36,6 +40,7 @@ const createUser = async (user) => {
 				clearForm: true,
 			};
 	}
+
 	return {
 		message: `${userExist.name} Ya existe en la base de datos`,
 		success: false,
@@ -48,15 +53,51 @@ const createUser = async (user) => {
 	employe.password = bcryptjs.hashSync(password, salt); */
 };
 const getAllEmployes = async () => {
-	const employes = await Employe.find()
-		.sort({ name: 1 })
+	const employes = await Employe.aggregate([
+		{
+			$lookup: {
+				from: 'schedules',
+				localField: '_id',
+				foreignField: 'employe',
+				as: 'schedules',
+			},
+		},
+	])
+		.sort({ date: 1 })
 		.collation({ locale: 'es', caseLevel: true });
+
+	const data = employes.map((user) => {
+		const schedule = user.schedules.filter(
+			(schedule) => schedule.date === getDate()
+		)[0];
+		return {
+			_id: user._id,
+			role: user.role,
+			rfid: user.rfid,
+			alternativeRfid: user.alternativeRfid,
+			name: user.name,
+			dni: user.dni,
+			schedule: schedule ? schedule : [],
+			excel: `<button
+			type="button"
+			class="px-1 py-1 btn btn-outline-primary user__download__excel"
+			id="downloaduserExcel-${user._id}"
+			onclick="downloadUserExcel('${user._id}')"
+		>Ecxel</button>`,
+			fichaje:
+				schedule && schedule.firstTime.length >= 8
+					? `<span class="badge__for__status__user status__active"></span>`
+					: `<span class="badge__for__status__user status__not__active"></span>`,
+		};
+	});
+
 	return {
 		message: `Todos los usuarios obtenidos desde la base de datos`,
 		success: true,
-		employes: JSON.stringify(employes),
+		employes: JSON.stringify(data),
 	};
 };
+
 const invalidrfid = () => {
 	return {
 		message: `RFID no asignada a ningún usuario`,
@@ -71,7 +112,6 @@ const getValidUser = async (cardUid) => {
 	if (users) {
 		return await saveUserSchedules(users);
 	}
-	console.log('no hay usuario');
 
 	return invalidrfid();
 };

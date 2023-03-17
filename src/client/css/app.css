@@ -16,6 +16,7 @@
 .texts-content h1 {
 	margin-left: -100px;
 	text-transform: uppercase;
+	margin-bottom: 0;
 }
 .reader__status {
 	display: block;
@@ -110,8 +111,8 @@
 }
 .block__logo {
 	position: fixed;
-	bottom: 120px;
-	right: 313px;
+	bottom: 127px;
+	right: 65px;
 	z-index: 999999;
 }
 /* .span__on__schedules {
@@ -128,4 +129,33 @@
 
 .un__left__container {
 	margin-left: -70px !important;
+}
+#userLocaleData {
+	text-align: center;
+	margin-left: -50px;
+	color: yellowgreen;
+	font-size: 25px;
+}
+
+.badge__for__status__user {
+	display: block;
+	color: white;
+	width: 80px;
+	height: 32px;
+	padding: 0;
+	margin: 0;
+}
+.badge__for__status__user.status__not__active {
+	background: red;
+}
+.badge__for__status__user.status__active {
+	background: greenyellow;
+}
+
+.user__download__excel {
+	width: 100%;
+	display: flex;
+	height: 20px !important;
+	justify-content: center;
+	align-items: center;
 }

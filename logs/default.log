@@ -1,0 +1,14 @@
+[2023-03-17T16:58:27.332] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-17T16:58:28.153] [INFO] default -  Solitud a readerStatus 
+[2023-03-17T16:58:28.153] [INFO] default - Reader está activo 
+[2023-03-17T16:58:56.076] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-17T16:58:56.868] [INFO] default -  Solitud a readerStatus 
+[2023-03-17T16:58:56.869] [INFO] default - Reader está activo 
+[2023-03-17T16:59:01.951] [INFO] default -  Solitud a cardStatus 
+[2023-03-17T16:59:01.951] [INFO] default - rfid leido: 07f63419 
+[2023-03-17T16:59:01.951] [INFO] default -  Solitud a cardStatus 
+[2023-03-17T16:59:01.952] [INFO] default - rfid leido: 07f63419 
+[2023-03-17T16:59:02.971] [INFO] default -  Solitud a cardStatus 
+[2023-03-17T16:59:02.972] [INFO] default - rfid retirado: 07f63419 
+[2023-03-17T16:59:02.972] [INFO] default -  Solitud a cardStatus 
+[2023-03-17T16:59:02.973] [INFO] default - rfid retirado: 07f63419 

@@ -1,10 +1,14 @@
+function downloadUserExcel(id) {
+	if (id) {
+		window.electronAPI.generateUserCVS(id);
+	}
+}
+
 document.addEventListener('DOMContentLoaded', function () {
 	const badgeStatus = document.querySelector('.reader__status');
-
 	const formNewUser = document.querySelector('#addNewUser');
 	const btnNewUser = document.querySelector('#btn-submit-newUser');
 	const allListusers = document.querySelector('#allListusers');
-
 	const closeModalNewUser = document.querySelector(
 		'#closeModalNewUser'
 	);
@@ -57,6 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			window.electronAPI.addNewRfidToUser(data);
 		}
 	}
+
 	window.electronAPI.addNewRfidToUserResponse((event, args) => {
 		alertify.set('notifier', 'position', 'top-right');
 		const myModalEl = document.getElementById('staticAddRFID');
@@ -73,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			alertify.error(`${args.message}`);
 		}
 	});
+
 	window.electronAPI.getCardStatus((event, args) => {
 		readerCard = args;
 		getStatusCard();
@@ -192,5 +198,36 @@ document.addEventListener('DOMContentLoaded', function () {
 	};
 	allListusers.childNodes[1].addEventListener('change', async () => {
 		getStatusCard();
+	});
+
+	window.electronAPI.userIsFileSuccess((event, args) => {
+		alertify.set('notifier', 'position', 'top-right');
+		alertify.success(`${args.message}`);
+	});
+	document
+		.querySelector('#downloadGlobalExcel')
+		.addEventListener('click', () => {
+			window.electronAPI.generateGlobalCVS();
+		});
+	window.electronAPI.generateGlobalCVSResponse((event, args) => {
+		alertify.set('notifier', 'position', 'center-center');
+		alertify
+			.confirm(`<em> ${args.message} </em> `)
+			.setHeader(`Estado de la generacion de Excel`)
+			.set('reverseButtons', true)
+			.set('movable', false)
+			.moveTo(700, 450)
+			.pin();
+	});
+	window.electronAPI.generateUserCVSResponse((event, args) => {
+		alertify.set('notifier', 'position', 'center-center');
+
+		alertify
+			.confirm(`<em> ${args.message} </em> `)
+			.setHeader(`Estado de la generacion de Excel`)
+			.set('reverseButtons', true)
+			.set('movable', false)
+			.moveTo(700, 450)
+			.pin();
 	});
 });

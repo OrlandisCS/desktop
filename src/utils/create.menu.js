@@ -1,5 +1,4 @@
 const { app, Menu } = require('electron');
-const electronActiveWindow = require('electron-active-window');
 
 const createMenu = (windowChild, mainWindow) => {
 	const template = [
@@ -15,9 +14,12 @@ const createMenu = (windowChild, mainWindow) => {
 			label: 'Admin',
 			role: 'Admin',
 			accelerator:
-				process.platform === 'darwin' ? 'Alt+Cmd+I' : 'Alt+Shift+I',
+				process.platform === 'darwin' ? 'Alt+Cmd+I' : 'Alt+Shift+A',
 			click: () => {
 				windowChild.show();
+				setTimeout(() => {
+					mainWindow.destroy();
+				}, 1000);
 			},
 		},
 		{

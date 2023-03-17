@@ -12,12 +12,7 @@ module.exports = {
 		},
 		{
 			name: '@electron-forge/maker-deb',
-			config: {
-				options: {
-					maintainer: 'OrlanidisDev',
-					homepage: 'https://orlandis.tech',
-				},
-			},
+			config: {},
 		},
 		{
 			name: '@electron-forge/maker-rpm',

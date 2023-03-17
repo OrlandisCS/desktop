@@ -1,5 +1,13 @@
 const Schedules = require('../models/schedules');
 const { getDate, getTime } = require('../utils/useDate');
+const {
+	formatDistance,
+	parseISO,
+	setDefaultOptions,
+} = require('date-fns');
+const { es } = require('date-fns/locale');
+
+setDefaultOptions({ locale: es });
 
 const saveUserSchedules = async (user) => {
 	const verification = await Schedules.findOne({
@@ -36,6 +44,7 @@ const saveUserSchedules = async (user) => {
 						verification.firstTime
 					}-${getTime()}`,
 				};
+
 				return data;
 			}
 		}
@@ -107,7 +116,12 @@ const saveUserSchedules = async (user) => {
 				verification: JSON.stringify(verification),
 				success: true,
 				message: `${user.name} Ya Finalizó su jornada`,
+				time: `Hace: ${formatDistance(
+					Date.now(),
+					verification.updatedAt
+				)}`,
 			};
+
 			return data;
 		}
 		if (
@@ -119,7 +133,12 @@ const saveUserSchedules = async (user) => {
 				verification: JSON.stringify(verification),
 				success: true,
 				message: `Jornada de ${user.name} Finalizó correctamente`,
+				time: `Hace: ${formatDistance(
+					Date.now(),
+					parseISO(verification.updatedAt)
+				)}`,
 			};
+			//await getEmployes();
 			return data;
 		}
 		return;

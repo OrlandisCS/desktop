@@ -30,4 +30,18 @@ contextBridge.exposeInMainWorld('electronAPI', {
 	//get user to rfid passed
 	viewUserOnCardReader: (callback) =>
 		ipcRenderer.on('response:viewUserOnCardReader', callback),
+	//get user file
+	userIsFileSuccess: (callback) =>
+		ipcRenderer.on('userIsFileSuccess', callback),
+
+	//generate globla cvs
+	generateGlobalCVS: (arg) =>
+		ipcRenderer.invoke('generateGlobalCVS', arg),
+	generateGlobalCVSResponse: (callback) =>
+		ipcRenderer.on('response:generateGlobalCVS', callback),
+	//generate user cvs
+	generateUserCVS: (arg) =>
+		ipcRenderer.invoke('generateUserCVS', arg),
+	generateUserCVSResponse: (callback) =>
+		ipcRenderer.on('response:generateUserCVS', callback),
 });
