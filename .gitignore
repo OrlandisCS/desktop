@@ -1,2 +1,5 @@
 /node_modules
 out/
+builds/
+/excels
+logs/

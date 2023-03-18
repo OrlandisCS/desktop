@@ -9,8 +9,6 @@ const { icon, isDev, availability } = require('../config.json');
 const { getValidUser } = require('./controllers/users');
 const { getTime } = require('./utils/useDate');
 const { addDays } = require('date-fns');
-const Company = require('./models/company');
-const mainMessage = require('./helpers/createMail');
 let mainWindow;
 let windowChild;
 
@@ -21,7 +19,7 @@ const createWindow = () => {
 		height: 728,
 		fullscreen: true,
 		frame: false,
-		icon: icon,
+		icon: path.join(__dirname, 'assets/MS-favicon.ico'),
 		autoHideMenuBar: true,
 		webPreferences: {
 			preload: path.join(__dirname, 'preload.js'),
@@ -81,7 +79,7 @@ const createWindow = () => {
 		}, 1000);
 
 		reader.on('card', async (card) => {
-			await mainMessage().catch(console.error);
+			/* await mainMessage().catch(console.error); */
 			if (card.type !== 'TAG_ISO_14443_3') return;
 			if (mainWindow) {
 				const cardStatus = new Reader(mainWindow, 'cardStatus', {

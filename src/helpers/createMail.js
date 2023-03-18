@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
-const sv = require('../../excels/global-17-03-2023.xlsx');
-// async..await is not allowed in global scope, must use a wrapper
+/* const sv = require('../../excels/global-17-03-2023.xlsx');
+ */ // async..await is not allowed in global scope, must use a wrapper
 async function mainMessage() {
 	// Generate test SMTP service account from ethereal.email
 	// Only needed if you don't have a real mail account for testing
