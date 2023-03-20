@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	<div class="images" id="mainPageImage"></div>
 </div>
 </div>`;
-
+	document.querySelector('body').innerHTML += deviceIsWork;
 	//muestra hace : @Date.now()
 	const userLocaleData = document.querySelector('#userLocaleData');
 
@@ -32,9 +32,8 @@ src="./assets/icons/lector.png"
 class="img-fluid"
 alt="lector rfid"
 />`;
-	window.electronAPI.userGetReaderStatus('Hola Desde el front');
+	window.electronAPI.userGetReaderStatus();
 	window.electronAPI.getReaderStatus((event, args) => {
-		console.log(args);
 		if (args.status) {
 			document
 				.querySelector('.main__Loader')
@@ -52,7 +51,7 @@ alt="lector rfid"
 		);
 	});
 	window.electronAPI.getDeviceStatus((event, args) => {
-		if (!args.success) {
+		if (!args.status) {
 			const deviceIsNotWork = `<div class="deviceIsNotWork">
 	<div class="container__css">
 	<div class="texts-content">
@@ -65,11 +64,9 @@ alt="lector rfid"
 			</h3>
 </div>
 </div>`;
-			document.querySelector('body').innerHTML = deviceIsNotWork;
-			return;
+			return (document.querySelector('body').innerHTML =
+				deviceIsNotWork);
 		} else {
-			document.querySelector('body').innerHTML = deviceIsWork;
-
 			//functions
 			messageUserOnReaderCard.innerHTML = defautlText;
 			mainPageImage.innerHTML = defautlImage;

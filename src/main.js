@@ -7,11 +7,11 @@ const { Reader } = require('./reader');
 const createMenu = require('./utils/create.menu');
 const { icon, isDev, availability } = require('../config.json');
 const { getValidUser } = require('./controllers/users');
-const { getTime, getDate } = require('./utils/useDate');
-const { addDays, format } = require('date-fns');
+const { getTimeIsWork } = require('./utils/device');
+
 let mainWindow;
 let windowChild;
-const Company = require('./models/company');
+
 const createWindow = () => {
 	/* Main window */
 	mainWindow = new BrowserWindow({
@@ -29,46 +29,24 @@ const createWindow = () => {
 	mainWindow.loadFile('./src/client/index.html');
 
 	let isWeek;
-	let weekDay;
-	const getTimeIsWork = async () => {
-		const dia = getDate();
-		const hora = getTime().slice(0, 5);
-		const companyData = await Company.findOne({
-			company: process.env.COMPANY,
-		});
-
-		weekDay = new Date(Date.now()).getDay();
-		const availability = companyData.deviceAvailability.filter(
-			(date) => date.weekdays.includes(weekDay)
-		)[0];
-		const from = availability.from;
-		const to = availability.to;
-		isWeek = hora >= from && hora <= to;
-
-		//console.log(hora);
-		//console.log('From es Horario operativo: ', hora >= from);
-		//console.log(from + '-' + hora);
-		//console.log('To es Horario operativo: ', hora <= to);
-		//console.log(to + '-' + hora);
-		//console.log({ from, to, hora, weekDay });
-
-		//Comunicar status del dispositivo
-
+	const sendStatus = () => {
 		const deviceStatus = new Reader(mainWindow, 'deviceStatus', {
-			message: !isWeek
+			message: !isWeek.isWeek
 				? `Dispositivo deshabilitado por configuración horaria`
 				: 'Dispositivo Operativo',
-			operational: `Desde las ${from} hasta las ${to}`,
-			status: isWeek,
+			operational: `Desde las ${isWeek.from} hasta las ${isWeek.to}`,
+			status: isWeek.isWeek,
 		});
 		deviceStatus.sendCurrier();
 	};
 
 	setTimeout(async () => {
-		await getTimeIsWork();
+		isWeek = await getTimeIsWork();
+		sendStatus();
 	}, 1000);
 	setInterval(async () => {
-		await getTimeIsWork();
+		isWeek = await getTimeIsWork();
+		sendStatus();
 	}, 3600000);
 
 	/* Admin window */
@@ -88,7 +66,7 @@ const createWindow = () => {
 	});
 	windowChild.loadFile('./src/client/admin.html');
 	createMenu(windowChild, mainWindow);
-	let interval;
+
 	mainWindow.on('closed', function () {
 		mainWindow = null;
 	});
@@ -98,19 +76,6 @@ const createWindow = () => {
 	nfc.on('reader', (reader) => {
 		isDev &&
 			BrowserWindow.getFocusedWindow().webContents.openDevTools();
-
-		/* 	const sendReaderStatus = () => {
-			clearTimeout(interval);
-			const readerStatus = new Reader(mainWindow, 'readerStatus', {
-				message: 'Reader está activo',
-				status: true,
-			});
-			readerStatus.sendCurrier();
-		};
-		interval = setTimeout(() => {
-			sendReaderStatus();
-		}, 1500);
- */
 		reader.on('card', async (card) => {
 			/* await mainMessage().catch(console.error); */
 			if (card.type !== 'TAG_ISO_14443_3') return;
@@ -119,7 +84,7 @@ const createWindow = () => {
 					message: `rfid leido: ${card.uid}`,
 					status: true,
 					card: card.uid,
-					userData: isWeek ? await getValidUser(card) : {},
+					userData: isWeek?.isWeek ? await getValidUser(card) : {},
 				});
 				cardStatus.sendCurrier();
 			}

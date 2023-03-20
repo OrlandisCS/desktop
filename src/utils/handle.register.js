@@ -13,6 +13,7 @@ const {
 	userGenerateSVC,
 } = require('../helpers/generateCVS');
 const path = require('path');
+const { getTimeIsWork } = require('./device');
 ipcMain.handle('addUserOnDialog', async (event, user) => {
 	const data = await createUser(user);
 	useLogger(data.success ? 'info' : 'error', `${data.message}`);
@@ -26,8 +27,15 @@ ipcMain.handle('getAllEmployes', async (event, user) => {
 });
 
 ipcMain.handle('userGetReaderStatus', async (event, args) => {
-	console.log(args);
-	console.log('entro>>>userGetReaderStatus');
+	const { isWeek, from, to } = await getTimeIsWork();
+
+	event.sender.send('deviceStatus', {
+		message: !isWeek
+			? `Dispositivo deshabilitado por configuración horaria`
+			: 'Dispositivo Operativo',
+		operational: `Desde las ${from} hasta las ${to}`,
+		status: isWeek,
+	});
 	nfc.on('reader', (reader) => {
 		reader.on('error', (err) => {
 			return event.sender.send('readerStatus', {
@@ -43,10 +51,12 @@ ipcMain.handle('userGetReaderStatus', async (event, args) => {
 			});
 		});
 	});
-	return event.sender.send('readerStatus', {
-		message: 'Reader está activo',
-		status: true,
-	});
+	setTimeout(() => {
+		return event.sender.send('readerStatus', {
+			message: 'Reader está activo',
+			status: true,
+		});
+	}, 1200);
 });
 
 ipcMain.handle('addNewRfidToUser', async (event, data) => {
