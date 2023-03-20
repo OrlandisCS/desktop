@@ -3,9 +3,14 @@
 	"isDev": false,
 	"availability": [
 		{
-			"weekdays": [1, 2, 3, 4, 5, 6],
+			"weekdays": [1, 2, 3, 4, 5],
 			"from": "06:00",
 			"to": "20:30"
+		},
+		{
+			"weekdays": [6],
+			"from": "06:00",
+			"to": "15:30"
 		}
 	]
 }

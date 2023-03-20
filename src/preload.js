@@ -1,6 +1,8 @@
 const { contextBridge, ipcRenderer } = require('electron');
 
 contextBridge.exposeInMainWorld('electronAPI', {
+	userGetReaderStatus: (arg) =>
+		ipcRenderer.invoke('userGetReaderStatus', arg),
 	//get all employes
 	loadAllEmployes: (arg) => ipcRenderer.invoke('getAllEmployes', arg),
 	getAllEmployes: (callback) =>
@@ -9,8 +11,6 @@ contextBridge.exposeInMainWorld('electronAPI', {
 	getReaderStatus: (callback) =>
 		ipcRenderer.on('readerStatus', callback),
 
-	userGetReaderStatus: (arg) =>
-		ipcRenderer.send('userGetReaderStatus', arg),
 	//add new user
 	addNewUserOnDialog: (arg) =>
 		ipcRenderer.invoke('addUserOnDialog', arg),
@@ -44,4 +44,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
 		ipcRenderer.invoke('generateUserCVS', arg),
 	generateUserCVSResponse: (callback) =>
 		ipcRenderer.on('response:generateUserCVS', callback),
+	//get device status
+	getDeviceStatus: (callback) =>
+		ipcRenderer.on('deviceStatus', callback),
 });

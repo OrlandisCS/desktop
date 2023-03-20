@@ -14,7 +14,7 @@
 	margin: 0 auto;
 }
 .texts-content h1 {
-	margin-left: -100px;
+	/* 	margin-left: -100px; */
 	text-transform: uppercase;
 	margin-bottom: 0;
 }

@@ -1,4 +1,7 @@
 const { ipcMain } = require('electron');
+const { NFC } = require('nfc-pcsc');
+const nfc = new NFC(); // optionally you can pass logger
+
 const {
 	createUser,
 	getAllEmployes,
@@ -20,6 +23,30 @@ ipcMain.handle('getAllEmployes', async (event, user) => {
 	const data = await getAllEmployes();
 	useLogger('info', `${data.message}`);
 	return event.sender.send('response:getAllEmployes', data);
+});
+
+ipcMain.handle('userGetReaderStatus', async (event, args) => {
+	console.log(args);
+	console.log('entro>>>userGetReaderStatus');
+	nfc.on('reader', (reader) => {
+		reader.on('error', (err) => {
+			return event.sender.send('readerStatus', {
+				message: 'Hubo un error con el dispositivo' + ':' + err,
+				status: false,
+			});
+		});
+
+		reader.on('end', () => {
+			return event.sender.send('readerStatus', {
+				message: 'dispositivo retirado',
+				status: false,
+			});
+		});
+	});
+	return event.sender.send('readerStatus', {
+		message: 'Reader está activo',
+		status: true,
+	});
 });
 
 ipcMain.handle('addNewRfidToUser', async (event, data) => {

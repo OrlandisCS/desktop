@@ -7,11 +7,11 @@ const { Reader } = require('./reader');
 const createMenu = require('./utils/create.menu');
 const { icon, isDev, availability } = require('../config.json');
 const { getValidUser } = require('./controllers/users');
-const { getTime } = require('./utils/useDate');
-const { addDays } = require('date-fns');
+const { getTime, getDate } = require('./utils/useDate');
+const { addDays, format } = require('date-fns');
 let mainWindow;
 let windowChild;
-
+const Company = require('./models/company');
 const createWindow = () => {
 	/* Main window */
 	mainWindow = new BrowserWindow({
@@ -28,16 +28,49 @@ const createWindow = () => {
 	});
 	mainWindow.loadFile('./src/client/index.html');
 
-	let isWeek = true;
-	/* 	let weekDay;
+	let isWeek;
+	let weekDay;
 	const getTimeIsWork = async () => {
-		const companyData = await Company.findOne({ company: 'MSP' });
+		const dia = getDate();
+		const hora = getTime().slice(0, 5);
+		const companyData = await Company.findOne({
+			company: process.env.COMPANY,
+		});
+
 		weekDay = new Date(Date.now()).getDay();
-		isWeek = companyData.weekdays.includes(weekDay);
-		if (isWeek) {
-		}  
+		const availability = companyData.deviceAvailability.filter(
+			(date) => date.weekdays.includes(weekDay)
+		)[0];
+		const from = availability.from;
+		const to = availability.to;
+		isWeek = hora >= from && hora <= to;
+
+		//console.log(hora);
+		//console.log('From es Horario operativo: ', hora >= from);
+		//console.log(from + '-' + hora);
+		//console.log('To es Horario operativo: ', hora <= to);
+		//console.log(to + '-' + hora);
+		//console.log({ from, to, hora, weekDay });
+
+		//Comunicar status del dispositivo
+
+		const deviceStatus = new Reader(mainWindow, 'deviceStatus', {
+			message: !isWeek
+				? `Dispositivo deshabilitado por configuración horaria`
+				: 'Dispositivo Operativo',
+			operational: `Desde las ${from} hasta las ${to}`,
+			status: isWeek,
+		});
+		deviceStatus.sendCurrier();
 	};
-	getTimeIsWork(); */
+
+	setTimeout(async () => {
+		await getTimeIsWork();
+	}, 1000);
+	setInterval(async () => {
+		await getTimeIsWork();
+	}, 3600000);
+
 	/* Admin window */
 	windowChild = new BrowserWindow({
 		width: 1024,
@@ -66,7 +99,7 @@ const createWindow = () => {
 		isDev &&
 			BrowserWindow.getFocusedWindow().webContents.openDevTools();
 
-		const sendReaderStatus = () => {
+		/* 	const sendReaderStatus = () => {
 			clearTimeout(interval);
 			const readerStatus = new Reader(mainWindow, 'readerStatus', {
 				message: 'Reader está activo',
@@ -76,8 +109,8 @@ const createWindow = () => {
 		};
 		interval = setTimeout(() => {
 			sendReaderStatus();
-		}, 1000);
-
+		}, 1500);
+ */
 		reader.on('card', async (card) => {
 			/* await mainMessage().catch(console.error); */
 			if (card.type !== 'TAG_ISO_14443_3') return;

@@ -1,4 +1,9 @@
-[2023-03-18T01:51:17.907] [INFO] default - Reader está activo 
-[2023-03-18T01:52:32.371] [INFO] default -  Solitud a readerStatus 
-[2023-03-18T01:52:32.373] [INFO] default - Reader está activo 
-[2023-03-18T01:52:36.259] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-20T01:51:29.741] [INFO] default - Reader está activo 
+[2023-03-20T01:51:37.028] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-20T01:51:37.578] [INFO] default -  Solitud a deviceStatus 
+[2023-03-20T01:51:37.578] [INFO] default - Dispositivo deshabilitado por configuración horaria 
+[2023-03-20T01:51:38.276] [INFO] default -  Solitud a readerStatus 
+[2023-03-20T01:51:38.277] [INFO] default - Reader está activo 
+[2023-03-20T01:52:20.224] [INFO] default - Todos los usuarios obtenidos desde la base de datos
+[2023-03-20T01:52:20.683] [INFO] default -  Solitud a deviceStatus 
+[2023-03-20T01:52:20.684] [INFO] default - Dispositivo deshabilitado por configuración horaria 
